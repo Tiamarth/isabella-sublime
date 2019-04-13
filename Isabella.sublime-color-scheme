@@ -1,5 +1,5 @@
 {
-    "name": "Isabella Color Scheme",
+    "name": "Isabella",
     "variables":
     {
         "bg": "#333335",
@@ -16,9 +16,11 @@
         "accentFadedMore": "#be4318b3",
 
         "black": "#101013",
+        "blue": "#6bc6ef",
         "green": "#77dd77",
-        "red": "#be2a18",
+        "pink": "#f772ad",
         "purple": "#b19cd9",
+        "red": "#be2a18",
         "white": "#f7f7f7",
         "yellow": "#fdfd96",
 
@@ -69,20 +71,89 @@
     "rules":
     [
         {
-            "name": "Comment",
+            "scope": "entity.name",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "entity.name.section",
+            "foreground": "var(white)",
+            "font_style": "bold",
+        },
+        {
+            "scope": "entity.name.tag",
+            "foreground": "var(pink)"
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "variable",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.language",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "variable.function",
+            "foreground": "white"
+        },
+        {
+            "scope": "constant",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "support",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "keyword",
+            "foreground": "var(pink)"
+        },
+        {
+            "scope": "string",
+            "foreground": "var(yellow)"
+        },
+        {
             "scope": "comment",
             "foreground": "var(comment)",
             "font_style": "italic"
         },
         {
-            "name": "String",
-            "scope": "string",
-            "foreground": "var(yellow)"
+            "scope": "markup.heading",
+            "foreground": "var(pink)"
         },
         {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "foreground": "var(purple)"
+            "scope": "markup.list.unnumbered",
+            "foreground": "var(fgFaded)"
+        },
+        {
+            "scope": "markup.list.numbered",
+            "foreground": "var(fgFaded)"
+        },
+        {
+            "scope": "markup.bold",
+            "foreground": "var(fg)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.italic",
+            "foreground": "var(fg)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.underline.link",
+            "foreground": "var(blue)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.quote",
+            "foreground": "var(fgFaded)"
         }
     ]
 }
