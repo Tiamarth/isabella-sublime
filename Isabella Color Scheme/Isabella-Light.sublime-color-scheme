@@ -1,0 +1,159 @@
+{
+    "name": "Isabella",
+    "variables":
+    {
+        "bg": "#f9f9f9",
+        "bgFaded": "#404042",
+        "bgDarker": "#29292b",
+
+        "fg": "#4c4f59",
+        "fgFaded": "#87878c",
+        "fgFadedMore": "#5b5b5e",
+        "fgFadedMost": "#47474a",
+
+        "accent": "#be4318",
+        "accentFaded": "#be6242",
+        "accentFadedMore": "#be4318b3",
+
+        "black": "#101013",
+        "blue": "#6bc6ef",
+        "green": "#77dd77",
+        "pink": "#f772ad",
+        "purple": "#b19cd9",
+        "red": "#be2a18",
+        "white": "#f7f7f7",
+        "yellow": "#fdfd96",
+
+        "comment": "#69696d",
+    },
+    "globals":
+    {
+        "background": "var(bg)",
+        "foreground": "var(fg)",
+
+        "invisibles": "var(fgFadedMost)",
+
+        "caret": "var(fg)",
+        "block_caret": "var(fg)",
+
+        "line_highlight": "var(bgFaded)",
+
+        "misspelling": "var(red)",
+
+        "fold_marker": "var(accentFaded)",
+
+        "minimap_border": "var(bgDarker)",
+
+        "accent": "var(accent)",
+
+        "gutter": "var(bgDarker)",
+        "gutter_foreground": "var(fg)",
+
+        "line_diff_width": "2",
+        "line_diff_added": "var(green)",
+        "line_diff_modified": "var(yellow)",
+        "line_diff_deleted": "var(red)",
+
+        "selection": "var(accent)",
+        "selection_foreground": "var(white)",
+        "selection_border": "var(accent)",
+        "selection_border_width": "2",
+        "inactive_selection": "var(accentFaded)",
+        "selection_corner_style": "square",
+
+        "highlight": "var(accentFadedMore)",
+        "find_highlight": "var(accentFadedMore)",
+
+        "guide": "var(fgFadedMorer)",
+        "active_guide": "var(fgFadedMost)",
+        "stack_guide": "var(fgFaded)",
+    },
+    "rules":
+    [
+        {
+            "scope": "entity.name",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "entity.name.section",
+            "foreground": "var(white)",
+            "font_style": "bold",
+        },
+        {
+            "scope": "entity.name.tag",
+            "foreground": "var(pink)"
+        },
+        {
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(green)"
+        },
+        {
+            "scope": "variable",
+            "foreground": "var(white)"
+        },
+        {
+            "scope": "variable.language",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "variable.function",
+            "foreground": "white"
+        },
+        {
+            "scope": "constant",
+            "foreground": "var(purple)"
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "support",
+            "foreground": "var(blue)"
+        },
+        {
+            "scope": "keyword",
+            "foreground": "var(pink)"
+        },
+        {
+            "scope": "string",
+            "foreground": "var(yellow)"
+        },
+        {
+            "scope": "comment",
+            "foreground": "var(comment)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.heading",
+            "foreground": "var(pink)"
+        },
+        {
+            "scope": "markup.list.unnumbered",
+            "foreground": "var(fgFaded)"
+        },
+        {
+            "scope": "markup.list.numbered",
+            "foreground": "var(fgFaded)"
+        },
+        {
+            "scope": "markup.bold",
+            "foreground": "var(fg)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.italic",
+            "foreground": "var(fg)",
+            "font_style": "italic"
+        },
+        {
+            "scope": "markup.underline.link",
+            "foreground": "var(blue)",
+            "font_style": "bold"
+        },
+        {
+            "scope": "markup.quote",
+            "foreground": "var(fgFaded)"
+        }
+    ]
+}
