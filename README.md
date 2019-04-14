@@ -4,6 +4,8 @@
 
 Put the "Isabella Color Scheme" folder in your Packages folder.
 
+![sublime screenshot](https://i.imgur.com/dv1wrFa.png)
+
 **Sublime Text 3**
 ```shell
 git clone https://github.com/Tiamarth/Isabella.git && cd Isabella/sublime
@@ -28,6 +30,21 @@ mv Isabella Color Scheme ~/.themes/.config/sublime-text-3/Packages
 | white        | `#f7f7f7` | `247 247 247` | `0 0% 97%`    | `0 0 97`    | `0 0 0 3`     |
 | yellow       | `#fdfd96` | `253 253 150` | `60 96% 79%`  | `60 41 99`  | `0 0 41 1`    |
 
-## Known Issues
+### Light
+| Palette      | Hex       | RGB             | HSL              | HSV          | CMYK         |
+|--------------|-----------|-----------------|------------------|--------------|--------------|
+| Background   | `#f8f8ff` | `248 248 255`   | `240 100% 99%`   | `240 3 100`  | `3 3 0 0`    |
+| Foreground   | `#4c4f59` | `76, 79, 89`    | `226, 8%, 32%`   | `226 15 35`  | `15 11 0 65` |
+| Selection    | `#be4318` | `190 67 24`     | `16 78% 42%`     | `16 87 75`   | `0 65 87 25` |
+| Current Line | `#ebeafc` | `235, 234, 252` | `243, 75%, 95%`  | `243 7 99`   | `7 7 0 1`    |
+| Comment      | `#b6b8bd` | `182, 184, 189` | `223, 5%, 73%`   | `223 4 74`   | `4 3 0 26`   |
+| Invisibles   | `#e7e7ed` | `231, 231, 237` | `240, 14%, 92%`  | `240 3 93`   | `3 3 0 7`    |
+| black        | `#101013` | `16 16 19`      | `240 9% 7%`      | `240 16 7`   | `16 16 0 93` |
+| blue         | `#6bc6ef` | `107 198 239`   | `199 80% 68%`    | `199 55 94`  | `55 17 0 6`  |
+| green        | `#77dd77` | `119 221 119`   | `120 60% 67%`    | `120 46 87`  | `46 0 46 13` |
+| pink         | `#f772ad` | `247 114 173`   | `333 89% 71%`    | `333 54 97`  | `0 54 30 3`  |
+| purple       | `#b19cd9` | `177 156 217`   | `261 45% 73%`    | `261 28 85`  | `18 28 0 15` |
+| red          | `#be2a18` | `190 42 24`     | `7 78% 42%`      | `7 87 75`    | `0 78 87 25` |
+| white        | `#f7f7f7` | `247 247 247`   | `0 0% 97%`       | `0 0 97`     | `0 0 0 3`    |
+| yellow       | `#ffa11c` | `255, 161, 28`  | `35, 100%, 55%`  | `35 89 100`  | `0 37 89 0`  |
 
-The light variant is currently broken.
