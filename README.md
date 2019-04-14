@@ -10,7 +10,7 @@ Or, if you're on Linux using the standard install path for Sublime Text, you can
 **Sublime Text 3**
 ```shell
 git clone https://github.com/Tiamarth/Isabella.git && cd Isabella/sublime
-mv Isabella Color Scheme ~/.themes/.config/sublime-text-3/Packages
+mv Isabella Color Scheme ~/.config/sublime-text-3/Packages
 ```
 
 Note that these commands will clone the whole repo onto your system, including the [gtk and gnome-shell theme](https://github.com/Tiamarth/Isabella/tree/master/gnome) and the [Vivaldi skin.](https://github.com/Tiamarth/Isabella/tree/master/vivaldi)
