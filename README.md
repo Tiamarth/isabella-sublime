@@ -1,10 +1,11 @@
 # Isabella for Sublime Text
+![sublime screenshot](https://i.imgur.com/dv1wrFa.png)
 
 ## Install
 
-Put the "Isabella Color Scheme" folder in your Packages folder.
+Put the "Isabella Color Scheme" folder in your Packages folder. This is just a color scheme, if you want Sublime Text's interface to use Isabella's colors as well, just set Sublime Text to use the default "adaptive" theme. `Adaptive.sublime-theme`
 
-![sublime screenshot](https://i.imgur.com/dv1wrFa.png)
+Or, if you're on Linux using the standard install path for Sublime Text, you can just use these commands:
 
 **Sublime Text 3**
 ```shell
