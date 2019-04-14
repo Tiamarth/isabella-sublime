@@ -1,15 +1,15 @@
 {
-    "name": "Isabella",
+    "name": "Isabella Light",
     "variables":
     {
-        "bg": "#f9f9f9",
-        "bgFaded": "#404042",
-        "bgDarker": "#29292b",
+        "bg": "#f8f8ff",
+        "bgFaded": "#ebeafc",
+        "bgDarker": "#e4e4ed",
 
         "fg": "#4c4f59",
-        "fgFaded": "#87878c",
-        "fgFadedMore": "#5b5b5e",
-        "fgFadedMost": "#47474a",
+        "fgFaded": "#cbcbd1",
+        "fgFadedMore": "#dadae0",
+        "fgFadedMost": "#e7e7ed",
 
         "accent": "#be4318",
         "accentFaded": "#be6242",
@@ -22,9 +22,9 @@
         "purple": "#b19cd9",
         "red": "#be2a18",
         "white": "#f7f7f7",
-        "yellow": "#fdfd96",
+        "yellow": "#ffa11c",
 
-        "comment": "#69696d",
+        "comment": "#b6b8bd",
     },
     "globals":
     {
@@ -76,7 +76,7 @@
         },
         {
             "scope": "entity.name.section",
-            "foreground": "var(white)",
+            "foreground": "var(black)",
             "font_style": "bold",
         },
         {
@@ -89,7 +89,7 @@
         },
         {
             "scope": "variable",
-            "foreground": "var(white)"
+            "foreground": "var(black)"
         },
         {
             "scope": "variable.language",
@@ -97,7 +97,7 @@
         },
         {
             "scope": "variable.function",
-            "foreground": "white"
+            "foreground": "black"
         },
         {
             "scope": "constant",
