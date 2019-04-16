@@ -2,18 +2,15 @@
 ![sublime screenshot](https://i.imgur.com/dv1wrFa.png)
 
 ## Install
-
-Download the [latest sublime zip](https://github.com/Tiamarth/Isabella/releases/download/04%2F14%2F19/sublime.zip) from the [releases tab](https://github.com/Tiamarth/Isabella/releases/) of the repo, and put the "Isabella Color Scheme" folder in your `sublime-text-3/Packages` folder.
+Put the "Isabella Color Scheme" folder in your `sublime-text-3/Packages` folder.
 
 Or, if you're on Linux using the standard install path for Sublime Text, you can just use these commands:
 
 **Sublime Text 3**
 ```shell
 git clone https://github.com/Tiamarth/Isabella.git && cd Isabella/sublime
-mv Isabella Color Scheme ~/.config/sublime-text-3/Packages
+mv 'Isabella Color Scheme' ~/.config/sublime-text-3/Packages
 ```
-
-Note that these commands will clone the whole repo onto your system, including the [gtk and gnome-shell theme](https://github.com/Tiamarth/Isabella/tree/master/gnome) and the [Vivaldi skin.](https://github.com/Tiamarth/Isabella/tree/master/vivaldi)
 
 This is just a color scheme, if you want Sublime Text's interface to use Isabella's colors as well, just set Sublime Text to use the default "adaptive" theme. `Adaptive.sublime-theme`
 
