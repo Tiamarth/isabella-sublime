@@ -51,3 +51,7 @@ This is just a color scheme, if you want Sublime Text's interface to use Isabell
 | white        | `#f7f7f7` | `247 247 247`   | `0 0% 97%`       | `0 0 97`     | `0 0 0 3`     |
 | yellow       | `#e69b00` | `230 155 0`     | `40 100% 45%`    | `40 100 90`  | `0 33 100 10` |
 
+**Need more help?** Get in touch!
+- join my [Discord server](https://discord.gg/ZfDP2ZV)
+- [Create an issue here on Github](https://github.com/Tiamarth/isabella-sublime/issues/new)
+- [Email me](mailto:jontiamac@gmail.com)
