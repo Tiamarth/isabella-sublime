@@ -8,7 +8,7 @@ Or, if you're on Linux using the standard install path for Sublime Text, you can
 
 **Sublime Text 3**
 ```shell
-git clone https://github.com/Tiamarth/isabella-sublime.git && cd isabella-sublime
+git clone https://github.com/isabella-theme/isabella-sublime.git && cd isabella-sublime
 mv 'Isabella Color Scheme' ~/.config/sublime-text-3/Packages
 ```
 
