@@ -53,5 +53,5 @@ This is just a color scheme, if you want Sublime Text's interface to use Isabell
 
 **Need more help?** Get in touch!
 - join my [Discord server](https://discord.gg/ZfDP2ZV)
-- [Create an issue here on Github](https://github.com/Tiamarth/isabella-sublime/issues/new)
+- [Create an issue here on Github](https://github.com/isabella-theme/isabella-sublime/issues/new)
 - [Email me](mailto:jontiamac@gmail.com)
