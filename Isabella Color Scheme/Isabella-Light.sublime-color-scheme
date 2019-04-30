@@ -3,8 +3,8 @@
     "variables":
     {
         "bg": "#f8f8ff",
-        "bgFaded": "#ebeafc",
-        "bgDarker": "#e9e9f0",
+        "bgFaded": "#e9e9f0",
+        "bgDarker": "#e2e2e8",
 
         "fg": "#4c4f59",
         "fgFaded": "#cbcbd1",
@@ -46,7 +46,7 @@
 
         "accent": "var(accent)",
 
-        "gutter": "var(bgDarker)",
+        "gutter": "var(bgFaded)",
         "gutter_foreground": "var(fg)",
 
         "line_diff_width": "2",
