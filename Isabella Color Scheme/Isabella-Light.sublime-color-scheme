@@ -7,9 +7,9 @@
         "bgDarker": "#e2e2e8",
 
         "fg": "#4c4f59",
-        "fgFaded": "#cbcbd1",
-        "fgFadedMore": "#dadae0",
-        "fgFadedMost": "#e7e7ed",
+        "fgFaded": "#797a80",
+        "fgFadedMore": "#9fa0a5",
+        "fgFadedMost": "#b2b4ba",
 
         "accent": "#be4318",
         "accentFaded": "#be6242",
