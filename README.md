@@ -1,5 +1,5 @@
 # Isabella for Sublime Text
-![sublime screenshot](https://i.imgur.com/dv1wrFa.png)
+![sublime screenshot](https://isabella-theme.github.io/assets/img/isabella-sublime/preview.png)
 
 ## Install
 Put the "Isabella Color Scheme" folder in your `sublime-text-3/Packages` folder.
